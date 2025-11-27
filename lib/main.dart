@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 10,),
             SizedBox(
               height: 40,
-              width: 700,
+              width: 250,
               child: TextField(
                 controller: _controller1,
                 decoration: InputDecoration(
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 10,),
             SizedBox(
               height: 40,
-              width: 700,
+              width: 250,
               child: TextField(
                 controller: _controller2,
                 decoration: InputDecoration(
