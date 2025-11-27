@@ -145,14 +145,10 @@ class MyApp extends StatelessWidget {
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
-                                  ' 1. Programming languages (Basic Knowledge):\n c++, java, html, css, javaScript, dart.',
-                                ),
+                                Text(' 1. Programming languages (Basic Knowledge):\n c++, java, html, css, javaScript, dart.',),
                                 Text(' 2. Understanding Data Structures (Basic).'),
                                 Text(' 3. Web development (Intermediate).'),
-                                Text(
-                                  ' 4. object-oriented programming (OOP) (Intermediate).',
-                                ),
+                                Text(' 4. object-oriented programming (OOP) (Intermediate).',),
                               ],
                             ),
                           ],
