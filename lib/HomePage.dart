@@ -119,149 +119,151 @@ class _HomepageState extends State<Homepage> {
 
 //------------------------------------------------------------------------------
 
-      body: Padding(
-        padding: const EdgeInsets.all(20.0),
-        child: Stack(
-          children: [
-            Container(
-              width: double.infinity,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Stack(
+            children: [
+              Container(
+                width: double.infinity,
 
-              child: Column(
-                children: [
-                  SizedBox(height: 20,),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
+                child: Column(
+                  children: [
+                    SizedBox(height: 20,),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
 
-                      ElevatedButton(
-                        onPressed: _bedrooms,
-                        child: Column(
-                          children: [
-                            Icon(Icons.bedroom_parent_outlined,
-                              color: Color.fromARGB(255, 207, 162, 74),
-                              size: 80,),
-                            SizedBox(height: 10,),
-                            Text('Bedrooms',
-                              style: TextStyle(color: Colors.black),),
-                          ],),
-                        style: ElevatedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(1))),),
+                        ElevatedButton(
+                          onPressed: _bedrooms,
+                          child: Column(
+                            children: [
+                              Icon(Icons.bedroom_parent_outlined,
+                                color: Color.fromARGB(255, 207, 162, 74),
+                                size: 80,),
+                              SizedBox(height: 10,),
+                              Text('Bedrooms',
+                                style: TextStyle(color: Colors.black),),
+                            ],),
+                          style: ElevatedButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1))),),
 
-                      ElevatedButton(
-                        onPressed: _Livingrooms,
-                        child: Column(
-                          children: [
-                            Icon(Icons.living_outlined,
-                              color: Color.fromARGB(255, 207, 162, 74),
-                              size: 80,),
-                            SizedBox(height: 10,),
-                            Text('Living room',
-                              style: TextStyle(color: Colors.black),),
-                          ],),
-                        style: ElevatedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(1))),),
-                    ],
-                  ),
+                        ElevatedButton(
+                          onPressed: _Livingrooms,
+                          child: Column(
+                            children: [
+                              Icon(Icons.living_outlined,
+                                color: Color.fromARGB(255, 207, 162, 74),
+                                size: 80,),
+                              SizedBox(height: 10,),
+                              Text('Living room',
+                                style: TextStyle(color: Colors.black),),
+                            ],),
+                          style: ElevatedButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1))),),
+                      ],
+                    ),
 
-                  SizedBox(height: 20,),
+                    SizedBox(height: 20,),
 
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      ElevatedButton(
-                        onPressed: _Foodrooms,
-                        child: Column(children: [
-                          Icon(Icons.table_restaurant_outlined,
-                            color: Color.fromARGB(255, 207, 162, 74),
-                            size: 80,),
-                          SizedBox(height: 10,),
-                          Text('Food rooms',
-                            style: TextStyle(color: Colors.black),),
-                        ],),
-                        style: ElevatedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(1))),),
-
-                      ElevatedButton(
-                        onPressed: _Intersroom,
-                        child: Column(
-                          children: [
-                            Icon(Icons.meeting_room_outlined,
-                              color: Color.fromARGB(255, 207, 162, 74),
-                              size: 80,),
-                            SizedBox(height: 10,),
-                            Text('Entrance',
-                              style: TextStyle(color: Colors.black),),
-                          ],),
-                        style: ElevatedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(1))),),
-                    ],
-                  ),
-
-                  SizedBox(height: 20,),
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      ElevatedButton(
-                        onPressed: () {},
-                        child: Column(
-                          children: [
-                            Icon(Icons.chair_outlined,
-                              color: Color.fromARGB(255, 207, 162, 74),
-                              size: 80,),
-                            SizedBox(height: 10,),
-                            Text('Chair',
-                              style: TextStyle(color: Colors.black),),
-                          ],),
-                        style: ElevatedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(1))),),
-
-                      ElevatedButton(
-                        onPressed: () {},
-                        child: Column(
-                          children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        ElevatedButton(
+                          onPressed: _Foodrooms,
+                          child: Column(children: [
                             Icon(Icons.table_restaurant_outlined,
                               color: Color.fromARGB(255, 207, 162, 74),
                               size: 80,),
                             SizedBox(height: 10,),
-                            Text('Table',
+                            Text('Food rooms',
                               style: TextStyle(color: Colors.black),),
                           ],),
-                        style: ElevatedButton.styleFrom(
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(1))),),
-                    ],
-                  ),
-                  Divider(),
+                          style: ElevatedButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1))),),
 
-                  Image(image: Image
-                      .asset("images/open.png")
-                      .image, height: 235, width: 400, fit: BoxFit.cover,),
-                ],
-              ),
-            ),
-            Positioned(
-              bottom: 200,
-              child: Container(
-                height: 40,
-                width: 100,
-                color: Color.fromARGB(255, 207, 162, 74),
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    Text('50%', style: TextStyle(fontSize: 28,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white),),
+                        ElevatedButton(
+                          onPressed: _Intersroom,
+                          child: Column(
+                            children: [
+                              Icon(Icons.meeting_room_outlined,
+                                color: Color.fromARGB(255, 207, 162, 74),
+                                size: 80,),
+                              SizedBox(height: 10,),
+                              Text('Entrance',
+                                style: TextStyle(color: Colors.black),),
+                            ],),
+                          style: ElevatedButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1))),),
+                      ],
+                    ),
+
+                    SizedBox(height: 20,),
+
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        ElevatedButton(
+                          onPressed: () {},
+                          child: Column(
+                            children: [
+                              Icon(Icons.chair_outlined,
+                                color: Color.fromARGB(255, 207, 162, 74),
+                                size: 80,),
+                              SizedBox(height: 10,),
+                              Text('Chair',
+                                style: TextStyle(color: Colors.black),),
+                            ],),
+                          style: ElevatedButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1))),),
+
+                        ElevatedButton(
+                          onPressed: () {},
+                          child: Column(
+                            children: [
+                              Icon(Icons.table_restaurant_outlined,
+                                color: Color.fromARGB(255, 207, 162, 74),
+                                size: 80,),
+                              SizedBox(height: 10,),
+                              Text('Table',
+                                style: TextStyle(color: Colors.black),),
+                            ],),
+                          style: ElevatedButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(1))),),
+                      ],
+                    ),
+                    Divider(),
+
+                    Image(image: Image
+                        .asset("images/open.png")
+                        .image, height: 235, width: 400, fit: BoxFit.cover,),
                   ],
                 ),
               ),
-            ),
-          ],
+              Positioned(
+                bottom: 200,
+                child: Container(
+                  height: 40,
+                  width: 100,
+                  color: Color.fromARGB(255, 207, 162, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Text('50%', style: TextStyle(fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

@@ -85,7 +85,7 @@ class _CartpageState extends State<Cartpage> {
                                         count1--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -105,7 +105,7 @@ class _CartpageState extends State<Cartpage> {
                                         count1++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
@@ -154,7 +154,7 @@ class _CartpageState extends State<Cartpage> {
                                         count2--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -174,7 +174,7 @@ class _CartpageState extends State<Cartpage> {
                                         count2++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
@@ -223,7 +223,7 @@ class _CartpageState extends State<Cartpage> {
                                         count3--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -243,7 +243,7 @@ class _CartpageState extends State<Cartpage> {
                                         count3++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
@@ -292,7 +292,7 @@ class _CartpageState extends State<Cartpage> {
                                         count4--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -312,7 +312,7 @@ class _CartpageState extends State<Cartpage> {
                                         count4++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
@@ -361,7 +361,7 @@ class _CartpageState extends State<Cartpage> {
                                         count5--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -381,7 +381,7 @@ class _CartpageState extends State<Cartpage> {
                                         count5++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
@@ -430,7 +430,7 @@ class _CartpageState extends State<Cartpage> {
                                         count6--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -450,7 +450,7 @@ class _CartpageState extends State<Cartpage> {
                                         count6++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
@@ -499,7 +499,7 @@ class _CartpageState extends State<Cartpage> {
                                         count7--;
                                       });
                                     },
-                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('-',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
 
                                 SizedBox(width: 10,),
@@ -519,7 +519,7 @@ class _CartpageState extends State<Cartpage> {
                                         count7++;
                                       });
                                     },
-                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 18,color: Colors.white),)
+                                    child: Text('+',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                                 ),
                               ],
                             ),
